@@ -1,0 +1,169 @@
+.quadrado {
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  display: inline-block;
+  line-height: 55px;
+  color: #ffffff;
+  font-family:'Clear Sans', arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 1px;
+}
+
+.tabuleiro {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Wordle";
+  src: url("../Font/karnakcondensed-normal-700\ \(1\).woff") format("woff");
+}
+
+.wordle {
+  text-align: center;
+}
+
+
+.titulo {
+  font-size: 20px;
+  font-family: "Wordle", Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+.cabeçalho {
+  text-align: center;
+  margin: 0px;
+  border: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  height: 30px
+}
+
+
+.icones-esquerda
+{
+  margin: 0px 20px;
+  word-spacing: 5px;
+
+}
+
+.icones-direita{
+  margin: 0px 20px;
+  word-spacing: 5px;
+}
+.fas {
+  color: #000000;
+  font-size: 20px;
+ }
+
+.fa-regular{
+  color: #000000;}
+
+
+.linha {
+  margin: 3px;
+}
+
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: #edeff0;
+
+}
+
+.errado {
+  background-color: #787c7e;
+  border: 2px solid #787c7e;
+
+}
+
+.amarelo {
+  background-color: #c9b458;
+  border: 2px solid #c9b458;
+
+}
+
+.certo{
+  background-color: #6aaa64;
+  border: 2px solid #6aaa64;
+  
+}
+
+.vazio {
+ background-color: #ffffff;
+ border: 2px solid #d8dadd;
+}
+
+.teclado {
+  background-color: #ffffff;
+  text-transform: capitalize;
+  bottom: -10% ;
+  width: 500px;
+  display: inline-block;
+ 
+  font-size: 14px;
+  text-align: center;
+  font-family:'Clear Sans', arial
+  }
+
+.teclas {
+  border: 0;
+  border-radius: 4px;
+  display: inline-block;
+  width: 44px;
+  height: 58px;
+  line-height: 58px;
+  margin: 8px 2px 0 0;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: #d3d6da;
+  padding: 0;
+  text-align: center;
+  justify-content: center;}
+
+
+.tecla-meio {
+    margin: 0;
+    padding: 0;
+    width: 0;
+  }
+  
+.enter {
+  font-size: 12px;
+  width: 65px;
+  height: 58px;
+  line-height: 58px;
+  }
+  
+.apagar {
+  font-size: 16px;
+  width: 65px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+  font-family:'Clear Sans', arial;
+  font-weight: bold;
+  align-items: center;
+  }
+  
+  .tecla-correta {
+    background-color: #6aaa64;
+    color: #fff;
+  }
+  
+  .tecla-incorreta {
+    background-color: #787c7e;
+    color: #fff;
+  }
+  
+
+/*Cores que precisarei usar no game teclado: #787c7e (Gray), #c9b458 (Yellow), #6aaa64 (green), #3a3a3c (Dark gray)

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wordle</title>
+    <link rel="stylesheet" href="CSS/estilo.css" />
+    <link
+      href="https://allfont.net/allfont.css?fonts=clear-sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+
+    <a target="_blank" href="https://icons8.com/icon/16140/ajuda"></a>
+
+    <div class="cabeçalho">
+      <div class="icones-esquerda">
+        <a href=""><i class="fas fa-solid fa-bars"></i></a>
+        <a href=""><i class="fa-regular fa-circle-question fa-lg"></i></a>
+      </div>
+      <div class="titulo">
+        <h1>Wordle</h1>
+      </div>
+      <div class="icones-direita">
+        <a href=""><i class="fas fa-thin fa-chart-simple"></i></a>
+        <img
+          class="iconestatic"
+          src="https://img.icons8.com/material-rounded/24/000000/settings.png"
+        />
+      </div>
+    </div>
+
+    <hr />
+  </head>
+
+  <body>
+    <div class="wordle">
+      <div class="tabuleiro">
+        <div class="linha">
+          <div class="quadrado errado">W</div>
+          <div class="quadrado errado">O</div>
+          <div class="quadrado errado">R</div>
+          <div class="quadrado errado">L</div>
+          <div class="quadrado errado">D</div>
+        </div>
+
+        <div class="linha">
+          <div class="quadrado amarelo">C</div>
+          <div class="quadrado errado">R</div>
+          <div class="quadrado errado">A</div>
+          <div class="quadrado amarelo">N</div>
+          <div class="quadrado certo">E</div>
+        </div>
+
+        <div class="linha">
+          <div class="quadrado errado">D</div>
+          <div class="quadrado errado">A</div>
+          <div class="quadrado certo">N</div>
+          <div class="quadrado certo">C</div>
+          <div class="quadrado certo">E</div>
+        </div>
+
+        <div class="linha">
+          <div class="quadrado errado">S</div>
+          <div class="quadrado certo">I</div>
+          <div class="quadrado certo">N</div>
+          <div class="quadrado certo">C</div>
+          <div class="quadrado certo">E</div>
+        </div>
+
+        <div class="linha">
+          <div class="quadrado certo">M</div>
+          <div class="quadrado certo">I</div>
+          <div class="quadrado certo">N</div>
+          <div class="quadrado certo">C</div>
+          <div class="quadrado certo">E</div>
+
+          <div class="linha">
+            <div class="quadrado vazio"></div>
+            <div class="quadrado vazio"></div>
+            <div class="quadrado vazio"></div>
+            <div class="quadrado vazio"></div>
+            <div class="quadrado vazio"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="teclado">
+        <div class="teclas">Q</div>
+        <div class="teclas tecla-incorreta">W</div>
+        <div class="teclas tecla-correta">E</div>
+        <div class="teclas tecla-incorreta">R</div>
+        <div class="teclas">T</div>
+        <div class="teclas">Y</div>
+        <div class="teclas">U</div>
+        <div class="teclas tecla-correta">I</div>
+        <div class="teclas tecla-incorreta">O</div>
+        <div class="teclas">P</div>
+
+        <div class="tecla-meio"></div>
+        <div class="teclas tecla-incorreta">A</div>
+        <div class="teclas tecla-incorreta">S</div>
+        <div class="teclas tecla-incorreta">D</div>
+        <div class="teclas">F</div>
+        <div class="teclas">G</div>
+        <div class="teclas">H</div>
+        <div class="teclas">J</div>
+        <div class="teclas">K</div>
+        <div class="teclas tecla-incorreta">L</div>
+
+        <div class="teclas enter">ENTER</div>
+        <div class="teclas">Z</div>
+        <div class="teclas">X</div>
+        <div class="teclas tecla-correta">C</div>
+        <div class="teclas">V</div>
+        <div class="teclas">B</div>
+        <div class="teclas tecla-correta">N</div>
+        <div class="teclas tecla-correta">M</div>
+        <div class="teclas apagar">
+          <img
+            src="https://img.icons8.com/material-outlined/24/000000/clear-symbol--v1.png"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
